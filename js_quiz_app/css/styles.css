@@ -1,0 +1,63 @@
+ div {
+    border: 2px solid black; 
+ }
+
+ div.li{
+   position: relative; 
+   z-index: 2;
+   background-color: white;
+ }
+
+ button[type="submit"]{
+   position: relative; 
+   z-index: 2; 
+   font-size: 2rem; 
+ }
+
+
+ div.overlay{
+   width: 100vw; 
+   height: 100vh; 
+   background-color: rgba(104, 43, 209, 0.2);
+   position: absolute; 
+   top: 0; 
+
+
+   display: none; 
+   /* changes to block if all 3 right */
+   z-index: 1;
+   /* changes to 3 if all 3 right */
+ }
+
+ div.congrats{
+   font-size: 3rem; 
+   width: 40%; 
+   padding: 3rem; 
+   border: 2px solid black;
+   background-color: pink;
+   left: 20%; 
+   position: absolute;
+
+   display: none; 
+   /* changes to block if all 4 right */
+   z-index: -1;
+   /* changes to 4 if all 3 right */
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+

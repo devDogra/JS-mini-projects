@@ -1,0 +1,34 @@
+* {
+    font-size: 2rem; 
+    border: 2px solid black; 
+    box-sizing: border-box;
+}
+
+.piano{
+    width: 80%; 
+    margin: 0 auto; 
+    display: flex;
+    padding: 1rem;
+    background-color: grey;
+}
+
+.note.pressed{
+    background-color: red;
+
+}
+
+
+.note{
+    flex: 1; 
+    background-color: white;
+
+    text-align: center;
+    height: 10rem; 
+    
+}
+
+.note:hover{
+    border-bottom: 20px solid black; 
+   
+
+}
