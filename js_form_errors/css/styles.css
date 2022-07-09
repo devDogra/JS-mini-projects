@@ -1,0 +1,27 @@
+div {
+   border: 2px solid black; 
+   margin: 1rem; 
+   padding: 0.5rem;
+   font-family: Consolas; 
+}
+
+.form-item{
+
+}
+
+.error{
+   display: none; 
+}
+
+.error-box{
+   background-color: rgba(255, 0, 0, 0.386);
+   border-radius: 1rem;
+
+   /*  by default; this becomes visible when we submit the form */
+   display: none; 
+}
+
+.visible{
+   display: block;
+}
+
