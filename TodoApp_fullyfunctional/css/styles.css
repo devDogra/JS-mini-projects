@@ -1,0 +1,29 @@
+*{
+    margin: 0.2rem;
+    padding: 0.2rem; 
+    
+    box-sizing: border-box;
+}
+
+
+
+form{
+    border: 2px solid black; 
+    display: flex; 
+    flex: 1;
+    justify-content: space-between;
+    flex-direction: column;
+    
+}
+
+.list-item{
+    list-style-type: none;
+}
+
+
+[striked] span[data-list-item-text]{
+    text-decoration:line-through;
+}
+[data-list-item-text]:hover{
+    color: red; 
+}

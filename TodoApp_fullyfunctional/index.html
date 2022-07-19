@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced TODO</title>
+    <script src="scripts/script.js" defer></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+    <!-- Task list -->
+    <ul id="list">
+
+    </ul>
+
+    <!-- Input area -->
+   <form action="" id="new-todo-form">
+        <label for="todo-input">New Todo</label>
+        <input type="text" id="todo-input">
+        <button type="submit">Add Todo</button>
+   </form>
+
+   <!-- Doesnt get rendered -->
+   <!-- Template for list items -->
+   <template id="list-item-template">
+
+    <li class="list-item">
+        <label class="list-item-label">
+            <input type="checkbox" data-list-item-checkbox>
+            <span data-list-item-text></span>           
+        </label>
+        <button data-btn-delete>Delete</button>
+    </li>
+
+   </template>
+
+
+</body> 
+</html>
