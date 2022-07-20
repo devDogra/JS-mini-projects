@@ -1,0 +1,19 @@
+*{
+    margin: 0.2rem;
+    padding: 0.2rem; 
+    
+    box-sizing: border-box;
+}
+
+
+.card{
+    border: solid; 
+}
+.card-body{
+    display: none; 
+}
+.card-body[show]{
+    border-top: 1px solid grey; 
+    display: block; 
+}
+
